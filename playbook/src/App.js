@@ -36,6 +36,42 @@ const RocketScene = () => {
   );
 };
 
+const FuturisticGrid = () => {
+  const [visible, setVisible] = useState(false);
+  useEffect(() => {
+    const timeout = setTimeout(() => setVisible(true), 500);
+    return () => clearTimeout(timeout);
+  }, []);
+  return (
+    <div className={`hero grid-hero${visible ? ' grid-fade-in' : ''}`}>
+      <div className="outer">
+        <div className="wrapper">
+          <div className="bg bg1">
+            {[...Array(19)].map((_, i) => (
+              <div key={`v1-${i}`} className="line vertical-line"></div>
+            ))}
+          </div>
+          <div className="bg bg2">
+            {[...Array(19)].map((_, i) => (
+              <div key={`v2-${i}`} className="line vertical-line"></div>
+            ))}
+          </div>
+          <div className="bg bg3">
+            {[...Array(9)].map((_, i) => (
+              <div key={`h1-${i}`} className={`line horizontal-line line${i+1}`}></div>
+            ))}
+          </div>
+          <div className="bg bg4">
+            {[...Array(9)].map((_, i) => (
+              <div key={`h2-${i}`} className={`line horizontal-line line${i+1}`}></div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 const pages = [
   {
     title: "Hi, I'm Joe 👋 Co-founder and Executive Chair at Open Partners.",
@@ -51,7 +87,8 @@ const pages = [
     title: 'Welcome to the rocket ship',
     content: (
       <>
-        <p>Open Partners launched in 2017, and you'll hopefully know the story about our growth in case you don't: we're officially one of the top 100 fastest growing companies in the UK. What we're doing isn't normal and our rise has been meteoric.</p>
+        <p>Open Partners launched in 2017, and you'll hopefully know the story about our growth? In case you don't, we're officially one of the top 100 fastest growing companies in the UK (Sunday Times), and unofficially the fastest growing Independent media agency in the UK (Google). </p>
+        <p>We now have over 50 clients, 140 staff, more than £70m annual turnover, and offices in Manchester, London, Liverpool, Bristol, Toronto, and Melbourne. What we're doing isn't normal and our rise has been meteoric, growing more than 50% every year since we launched in 2017. So from that perspective we're special. I wanted to start this memo by sharing what we think the reasons are for that.</p>
       </>
     ),
     cta: 'Our positioning'
@@ -60,7 +97,7 @@ const pages = [
     title: 'The Agency of Next.',
     content: (
       <>
-        <p>We are not just a Media Agency. We adapted, and now call ourselves the Agency of Next. We deliver Marketing Transformations. We came to our brand positioning after asking our clients why they chose to work with us.</p>
+        <p>In 2017 we started off as a Media Agency, but we're not that anymore. We adapted, and now call ourselves the 'Agency of Next'. As the Agency of Next we deliver Marketing Transformations. We came to our brand positioning after asking our clients why they chose to work with us. Consistently they told us that it was because they trusted us more than anyone else, felt that the best place to be was by our side, and it was our ability to successfully adapt to the rapidly changing market that genuinely set us apart from the rest. Many of our clients have followed us from our previous agency and are still with us today, in many cases trusting in us for more than 15 years. There's something very special about the capabilities we have built and the way we combine them together. Our vision as Founders was that marketing success today is now digital-first and underpinned by Media that's optimised for attention, Creative that's specialist and 'fit-for-platform', and Data that's of the highest quality, enabling us to target audiences more accurately and measure performance more precisely. Over the past 7 years we have built the agency to have specialist expertise in each of these three 'Disciplines' - Media, Creative and Data - and by integrating them all under one roof we have created a one-stop-shop for clients making it smarter, faster and better to just use us.</p>
       </>
     ),
     cta: 'No compromises'
@@ -94,6 +131,7 @@ function App() {
     setTimeout(() => {
       setFade(false);
       setPage((prev) => (prev < pages.length - 1 ? prev + 1 : prev));
+      window.scrollTo(0, 0);
     }, 400);
   };
 
@@ -108,6 +146,7 @@ function App() {
             </div>
           )}
           {page === 1 && <RocketScene />}
+          {page === 2 && <FuturisticGrid />}
           <h2>{page === 0
             ? (<span>Hi, I'm Joe 👋<br />Co-founder and Executive Chair at <br />Open Partners.</span>)
             : pages[page].title}
