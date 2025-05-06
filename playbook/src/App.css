@@ -97,7 +97,7 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
 .bird-icon {
   position: absolute;
   top: 41px;
-  right: 25px;
+  right: 41px;
   width: 63px;
   height: 60px;
   color: #fff;

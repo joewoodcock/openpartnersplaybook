@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import BirdIcon from './BirdIcon';
+import Diamond from './Diamond';
 
 const RocketBgIcon = () => (
   <svg width="135" height="130" viewBox="0 0 135 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="rocket-bg-icon">
@@ -147,6 +148,7 @@ function App() {
           )}
           {page === 1 && <RocketScene />}
           {page === 2 && <FuturisticGrid />}
+          {page === 3 && <Diamond />}
           <h2>{page === 0
             ? (<span>Hi, I'm Joe 👋<br />Co-founder and Executive Chair at <br />Open Partners.</span>)
             : pages[page].title}
