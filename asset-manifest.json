@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/openpartnersplaybook/static/css/main.f1e129be.css",
-    "main.js": "/openpartnersplaybook/static/js/main.13985294.js",
+    "main.css": "/openpartnersplaybook/static/css/main.f0cfc36b.css",
+    "main.js": "/openpartnersplaybook/static/js/main.f9ae80dc.js",
     "static/js/453.a1e05fd9.chunk.js": "/openpartnersplaybook/static/js/453.a1e05fd9.chunk.js",
+    "static/media/handshake.gif": "/openpartnersplaybook/static/media/handshake.392d9236d7fffbc36e3f.gif",
+    "static/media/monster.gif": "/openpartnersplaybook/static/media/monster.ac6a55e6412c49375603.gif",
+    "static/media/hikers.jpg": "/openpartnersplaybook/static/media/hikers.34ddfd6e2b16c165467b.jpg",
     "static/media/joe.png": "/openpartnersplaybook/static/media/joe.ef4e6d9dd96fd0d97b79.png",
     "index.html": "/openpartnersplaybook/index.html",
-    "main.f1e129be.css.map": "/openpartnersplaybook/static/css/main.f1e129be.css.map",
-    "main.13985294.js.map": "/openpartnersplaybook/static/js/main.13985294.js.map",
+    "main.f0cfc36b.css.map": "/openpartnersplaybook/static/css/main.f0cfc36b.css.map",
+    "main.f9ae80dc.js.map": "/openpartnersplaybook/static/js/main.f9ae80dc.js.map",
     "453.a1e05fd9.chunk.js.map": "/openpartnersplaybook/static/js/453.a1e05fd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1e129be.css",
-    "static/js/main.13985294.js"
+    "static/css/main.f0cfc36b.css",
+    "static/js/main.f9ae80dc.js"
   ]
 }
