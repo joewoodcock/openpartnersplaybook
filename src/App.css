@@ -53,6 +53,10 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   line-height: 120%;
 }
 
+.page-11 h2 {
+  font-size: 2.3rem;
+}
+
 .page-content p {
   font-size: 1rem;
   color: #d6e0f5;
@@ -152,7 +156,7 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   padding-left: 50px;
 }
 
-.mobile-app.page-0 .hero svg {
+.mobile-app .hero svg {
   position: absolute;
   top: 0;
   right: 0;
@@ -800,7 +804,7 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   background: #0b77b2;
 }
 
-.mobile-app.page-6 .hero, .mobile-app.page-7 .hero {
+.mobile-app.page-6 .hero, .mobile-app.page-7 .hero, .mobile-app.page-8 .hero, .mobile-app.page-10 .hero, .mobile-app.page-11 .hero {
   margin-left: -40px;
   margin-right: -40px;
   width: calc(100% + 80px);
@@ -815,4 +819,32 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
 
 .mobile-app.page-7 {
   background: #080108;
+}
+
+.mobile-app.page-8 .hero {
+  padding: 150px 0 20px 0;
+}
+
+.mobile-app.page-8 .hero + h2 {
+  display: none;
+}
+
+.mobile-app.page-9 {
+  background: #d2c9a4;
+}
+
+.mobile-app.page-9 h2, .mobile-app.page-9 p {
+  color: #222;
+}
+
+.mobile-app.page-9 .bird-icon {
+  color: #0e0f07;
+}
+
+.page-11 {
+  background: #000;
+}
+
+.page-11 h2 {
+  margin-top: -20px;
 }

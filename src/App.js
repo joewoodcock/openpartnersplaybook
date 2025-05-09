@@ -6,6 +6,10 @@ import handshakeGif from './assets/handshake.gif';
 import goalHero from './assets/hikers.jpg';
 import monsterGif from './assets/monster2.gif';
 import personHero from './assets/person.jpg';
+import passionHero from './assets/passion.jpg';
+import profeshHero from './assets/profesh.jpg';
+import arrowsHero from './assets/arrows.jpg';
+import commsHero from './assets/comms.jpg';
 
 const RocketBgIcon = () => (
   <svg width="135" height="130" viewBox="0 0 135 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="rocket-bg-icon">
@@ -138,7 +142,7 @@ const pages = [
     title: 'We are mindset monsters.',
     content: (
       <>
-        <p>Your goal at Open Partners is to make your clients, your partners, and your colleagues love and respect you. That's the number one priority for every single member of staff here. To be better than any other person in the world for your clients, for your partners, and your colleagues. Our plan is obviously to become more profitable, to maintain our 50%+ headline revenue growth, and to outperform the competition, BUT they're just outputs. All are super important - but if your clients, your partners, and your colleagues love and respect you, the rest will follow automatically.</p>
+        <p>It's our mindset above anything else that defines people at OP, and what sets us apart as a collective. Maintaining that mindset across the agency, as we grow, is vital to our ongoing success. We've found that in this world there are three types of mindset that lead to very different ways of showing up and contributing. This results in A-Players, B-Players, and C-Players. At Open Partners we only have room only for A-Players, and B-Players who will become our A-Players of the future. A-Players are meticulous, precise, coachable, intelligent, learn from their mistakes, avoid excuses, believe in our potential, and excel as the best in their field. A-Players know what excellence is, and they apply it to everything they do. B-Players are the A-Players of the future. They are new and require training to become A-Players, which we are committed to doing. They are hungry to grow, value feedback and are willing to put in the work to make progress. C-Players, while competent, aren't exceptional - they do the minimum, lack drive, and don't prioritise growth for themselves, their clients, or their partners. C-Players take the easy option, they miss opportunities to innovate, harm the team dynamic, and should be transitioned out promptly with appropriate support to ease their exit. A-Players are what have made this business what it is today. They are committed to excellence, have a 'win at all costs' mentality, leave their egos at the door, and focus on teamwork to get where they want to be. These people dedicate themselves to work, and being the best at their job is a huge part of their personal identity. They feel like they've never arrived, they are not content with the status quo, and are always focused on whatever comes 'next'. Now we know that not everyone is like that - the vast majority of people aren't - but at Open Partners, that's us, a leadership business made up of A-Players whose clients and partners look to us to tell them what they should do next.</p>
       </>
     ),
     cta: 'Full service people'
@@ -160,6 +164,33 @@ const pages = [
       </>
     ),
     cta: 'Be professional'
+  },
+  {
+    title: 'A passion for who we are, what we do, and who we work with.',
+    content: (
+      <>
+        <p>Whilst clients expect professionalism, it's our passion that moves them. Lots of businesses are professional, but very few combine it with genuine passion like we do. Successful people at Open Partners are genuinely passionate about what they and we do. That passion is almost impossible to fake, and it's the emotion above any other that makes people 'feel'. The old adage really is true - people may not remember exactly what you said, but they will remember how you made them feel. Passion shows you're all in, and that you believe. It's contagious, it's exciting and it's memorable. It starts with being passionate about us. About Open Partners, who we are, and what we do. Knowing and being passionate about why we're different and better. Do you? Can you recite our mission, our purpose, and our values? What's our agency origin story? Who was our first client? What's been our most recent pitch? What's your favourite case study and why? Why are we smarter, faster and better than any other agency on the planet? That goes for our clients too. Pretty much every person at Open Partners works on clients, so if you're working on a client, you need to be as passionate about their business as you are about ours. That starts with reading our pitch that won the account, and our most recent quarterly review to that client. What's the story? What are we trying to achieve? How are we getting on? Then you need to do more. Being passionate means you always go the extra mile, so leaders at OP go to their client's stores, visit their websites, download their apps, buy their products, and generally experience their business as potential consumers would. They put themselves in their client's and their client's customer's shoes, and prioritise getting a strong opinion about improvement. They ask themselves, "if this was my business what would I do", and take pride in being the person who is the catalyst for making those changes happen. If they're not the target audience, they'll know someone who is, and they'll ask them. They do the same with their client's competitors, and know the difference for themselves. They live and breathe it. As I've already said, at Open Partners your time is your own, and I want you to use it. You're in control. So work from your client's or partner's offices. Visit their stores. You can't do your job properly unless you're 'in it', so show everyone you are.</p>
+      </>
+    ),
+    cta: '24/7 results'
+  },
+  {
+    title: 'We are a 24/7 results business ',
+    content: (
+      <>
+        <p>The work we do at Open Partners is 'on' 24/7. Sometimes things go wrong and stuff needs fixing, and waiting until tomorrow morning isn't an option. Sometimes things happen that are out of our control and we have to react. Opportunities knock, and taking them before anyone else is what Open Partners is all about, regardless of when it is. Pitches happen, sometimes more than one at the same time, and our job isn't done until the job is done. We pride ourselves on being faster, more agile, and more committed than any of our competitors. What I'm saying is that if you work for Open Partners and want to grow with us, you're going to be ok being 'on call'. Now that doesn't mean that you'll always BE called. If people are doing the stuff I'm saying in this note it should be pretty rare that things go wrong.  If you are working weekends consistently you need to have a look around and ask whether the people around you are also the A-people like you. People who take ownership who don't watch the clock. Who know what the job is, and will do whatever it takes to get it done. Who understand their priorities, who are protective about their relationships with their clients and partners, have a razor-sharp focus on the outcomes they're responsible for, and are always vigilant about whatever's coming 'next'. They focus hard on their own personal and professional growth, and they don't get distracted. With this type of person you don't need to tell them when or where to work. All they care about is the right outcome, and they never shirk responsibility or hide. It's for that reason that from the start at Open Partners we decided we would never tell people where or when they needed to work. We're a results business that's been built on trust; our clients trust us to deliver, and we do the same with our staff. In our business, outcomes are all that matter. At Open Partners, I guarantee that you will be judged 100% based on results, not hours. Your clients and colleagues will love you if you take responsibility, get it done, and then put your hand up to do more. We're really not interested in presenteeism, and whilst grind shows you care and we appreciate it, if you can get the outcomes needed without grinding, do it. We're into smart before hard, but both are what almost guarantee success. So stop talking and start doing. Deliver results now, and refine the process later. We thrive when we're agile, and action is our lifeblood. Bureaucracy? It's a slow poison we refuse to tolerate. Yes, processes have their place, but they must be simple, efficient, and never mistaken as the goal in and of themselves. Ruthless prioritisation is what separates the impactful from the irrelevant. When priorities are set, nothing - and I mean nothing - should derail you. Distraction is the silent assassin of progress. So shut off the noise. Turn off alerts. Keep your phone on for emergencies, but focus your energy on what truly matters. </p>
+      </>
+    ),
+    cta: 'Do it right'
+  },
+  {
+    title: 'We are a communications business, and we do it right.',
+    content: (
+      <>
+        <p>We're still mainly a remote business, and we're not planning on changing that anytime soon. It's been one of our superpowers, as it means we can access talent wherever it is, and also keep our costs low and our rates competitive. We don't need to charge our clients for our massive offices - we don't have them! But remote businesses have their own unique set of challenges, specifically around communication. In a remote business it's easy to communicate badly. Either not at-all - which is the worst - or only marginally better by diarising meeting after meeting of 'check-ins' which leave you no better off than when you arrived. So constant communication and extreme ownership are what we do here. You don't get to brief work in and set a reminder in 5 days and not talk to them for 5 days. If it's your responsibility, it's your responsibility. Don't leave room for error. Check in daily, and know weeks in advance if there's a problem. Not days. When communicating with each-other, use higher forms of communication. Slack and Email ain't it. Real life is. The lower the form of communication the more miscommunication you will face. As I'm typing this you have no idea if I'm laughing, smiling, happy, or sad. You can't read my body language or my face, and because of that it's not guaranteed that you'll understand what I'm conveying. Need a drink order for a meeting? A Slack message is probably fine for that. One week out from a pitch and the thing you are working on just went south? Minimum a multi-way call with the heads of the pitch. Ideally grab them in real life. We have multiple offices that are there 100% for this kind of thing, so use them. The higher the complexity of what needs to be said, the higher the form of the communication you should use. Call first then text if they don't answer. If a colleague, client or supplier calls you, answer it. If they email you, acknowledge it, even if you don't have the answer yet. If they Slack, text, or Whatsapp you, read it and respond, even if you don't have the answer yet. Show them you're on it. Give them a 'yes chef' (you don't actually have to say that!), and do it straight away. Don't leave anyone hanging. Since we are on the topic of communication, written communication also does not constitute communication unless they confirm they read it! Always respect communication lines. There is always someone responsible for everything, and if multiple people are responsible for the same thing, then that's a problem and needs to be fixed immediately. When communicating across departments you go up and then over, don't go directly across. It will mean that no-one knows that's going on!</p>
+      </>
+    ),
+    cta: 'Be professional'
   }
 ];
 
@@ -169,7 +200,10 @@ const preloadImages = () => {
     handshakeGif,
     goalHero,
     monsterGif,
-    personHero
+    personHero,
+    passionHero,
+    profeshHero,
+    arrowsHero
   ];
   
   images.forEach(src => {
@@ -295,6 +329,87 @@ function App() {
                 onLoad={(e) => e.target.style.opacity = 1}
               />
             </div>
+          )}
+          {page === 8 && (
+            <div
+              className="hero"
+              style={{
+                minHeight: '220px',
+                backgroundImage: `url(${profeshHero})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                borderRadius: '20px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'relative',
+                marginBottom: '30px'
+              }}
+            >
+              <h2 style={{
+                color: 'white',
+                marginTop: '80px',
+                borderRadius: '10px',
+                padding: '0.5em 1em',
+                margin: 0,
+                position: 'relative',
+                zIndex: 2
+              }}>{pages[page].title}</h2>
+            </div>
+          )}
+          {page === 9 && (
+            <div
+              className="hero"
+              style={{
+                minHeight: '320px',
+                backgroundImage: `url(${passionHero})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                borderRadius: '20px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'relative'
+              }}
+            >
+              <svg width="135" height="130" viewBox="0 0 135 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="rocket-bg-icon">
+                <path d="M135 130H134.399C131.62 116.307 119.514 106 105 106H60C43.4315 106 30 92.5685 30 76V30C30 13.4315 16.5685 0 0 0H135V130Z" fill="#d2c9a4" />
+              </svg>
+            </div>
+          )}
+          {page === 10 && (
+            <div
+              className="hero"
+              style={{
+                minHeight: '420px',
+                backgroundImage: `url(${arrowsHero})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                borderRadius: '20px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'relative',
+                marginBottom: '10px'
+              }}
+            />
+          )}
+          {page === 11 && (
+            <div
+              className="hero"
+              style={{
+                minHeight: '420px',
+                backgroundImage: `url(${commsHero})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                borderRadius: '20px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'relative',
+                marginBottom: '10px'
+              }}
+            />
           )}
           <h2>{page === 0
             ? (<span>Hi, I'm Joe 👋<br />Co-founder and Executive Chair at <br />Open Partners.</span>)
