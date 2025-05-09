@@ -11,6 +11,7 @@ import profeshHero from './assets/profesh.jpg';
 import arrowsHero from './assets/arrows.jpg';
 import commsHero from './assets/comms.jpg';
 import prepHero from './assets/prep.jpg';
+import prezzoHero from './assets/prezzo.jpg';
 
 const RocketBgIcon = () => (
   <svg width="135" height="130" viewBox="0 0 135 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="rocket-bg-icon">
@@ -200,7 +201,16 @@ const pages = [
         <p>If you turn up to a meeting without an opinion, an idea, a solution, or generally have nothing to say, don't bother. Because if you don't, other people will feel like it's ok to be a passenger too. Psychology is contagious, so show everyone else you've prepared. Be the example you want to set. Put in a long shift weeks before the meeting so you don't have to in the days before the meeting. Use every tool at your disposal to prepare brilliantly. AI and outside experts are hacks for this, so don't reinvent the wheel when someone else has the right answers or has been in the situation you're in before. Hack faster solutions and prepare better. The smartest people leverage others' expertise, so be one of them. Demand a good brief, re-read it, decide what your angle is, script specifically what you're going to say, predict the challenges you're going to face, and practice practice practice. Great prep shows you really are the best at what you do, but more than that, it shows you're bang up for it. It's where your passion comes through. So build in buffers, give yourself room to breathe, and prepare better than anyone else in that room.  It's harder to be nervous before a meeting when you know you've prepared brilliantly.</p>
       </>
     ),
-    cta: 'Prepare!'
+    cta: 'Every slide counts'
+  },
+  {
+    title: 'Presentations make meetings, and meetings make growth.',
+    content: (
+      <>
+        <p>Every meeting you run is a show, and every show needs a script. That's what a presentation is. Every presentation is a script, and every one without exception has to be exciting. That means every slide has to count. It might sound like an exaggeration, but our business has been built on knockout slide decks. Beautiful, elegant slide decks that tell compelling business stories built on crisp insights with killer recommendations. I have a 'no dull slide rule'. When I get a killer deck that looks great, tells a great business story, including rock solid insights, great ideas, and clear, actionable recommendations, I get excited. I guarantee our clients do too. People who have been here for a while know that I have extremely high standards when it comes to slide decks, and it's because I know that it's those that have been the foundation of making our business successful. Each great presentation is like a foundation stone. "That's the best presentation I've ever seen" has been a common remark from clients since we started, and that's what you need to aim for every time. Why? Because great presentations live on forever. They make our clients and partners feel something, and can be used as rally points, and adapted for other clients, so that we can be better than we were yesterday. The best presentations are the foundation for the best meetings. Of the best meeting performances. Build a great deck, and - as long as you created it yourself and know the content inside-out - you're almost guaranteed to deliver a great meeting performance. Alongside great decks, the other thing that will deliver a guaranteed amazing meeting is if you ask amazing questions. Great questions not only show that you're a great listener, they also show that you get it, so make sure you ask at least one killer question in every meeting. Great performances lead to impressed clients, and impressed clients lead to trust, confidence, investment, growth, and love.</p>
+      </>
+    ),
+    cta: 'Every slide counts'
   }
 ];
 
@@ -215,7 +225,8 @@ const preloadImages = () => {
     profeshHero,
     arrowsHero,
     commsHero,
-    prepHero
+    prepHero,
+    prezzoHero
   ];
   
   images.forEach(src => {
@@ -429,6 +440,23 @@ function App() {
               style={{
                 minHeight: '420px',
                 backgroundImage: `url(${prepHero})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                borderRadius: '20px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'relative',
+                marginBottom: '10px'
+              }}
+            />
+          )}
+          {page === 13 && (
+            <div
+              className="hero"
+              style={{
+                minHeight: '420px',
+                backgroundImage: `url(${prezzoHero})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 borderRadius: '20px',
