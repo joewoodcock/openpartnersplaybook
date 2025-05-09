@@ -126,11 +126,11 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   margin: 0 auto 1.5rem auto;
   width: 110px;
   height: auto;
-  z-index: 9;
   max-width: 90vw;
   position: relative;
   transform: translateY(0);
   transition: transform 0.3s ease-in-out;
+  z-index: 9;
 }
 
 .rocket-bg-icon:hover {
