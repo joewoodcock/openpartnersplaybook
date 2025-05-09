@@ -128,6 +128,13 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   height: auto;
   z-index: 9;
   max-width: 90vw;
+  position: relative;
+  transform: translateY(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.rocket-bg-icon:hover {
+  transform: translateY(-5px);
 }
 
 .hero {

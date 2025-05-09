@@ -127,6 +127,7 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   width: 110px;
   height: auto;
   max-width: 90vw;
+  z-index: 9;
 }
 
 .hero {
