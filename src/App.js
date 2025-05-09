@@ -10,6 +10,7 @@ import passionHero from './assets/passion.jpg';
 import profeshHero from './assets/profesh.jpg';
 import arrowsHero from './assets/arrows.jpg';
 import commsHero from './assets/comms.jpg';
+import prepHero from './assets/prep.jpg';
 
 const RocketBgIcon = () => (
   <svg width="135" height="130" viewBox="0 0 135 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="rocket-bg-icon">
@@ -190,7 +191,16 @@ const pages = [
         <p>We're still mainly a remote business, and we're not planning on changing that anytime soon. It's been one of our superpowers, as it means we can access talent wherever it is, and also keep our costs low and our rates competitive. We don't need to charge our clients for our massive offices - we don't have them! But remote businesses have their own unique set of challenges, specifically around communication. In a remote business it's easy to communicate badly. Either not at-all - which is the worst - or only marginally better by diarising meeting after meeting of 'check-ins' which leave you no better off than when you arrived. So constant communication and extreme ownership are what we do here. You don't get to brief work in and set a reminder in 5 days and not talk to them for 5 days. If it's your responsibility, it's your responsibility. Don't leave room for error. Check in daily, and know weeks in advance if there's a problem. Not days. When communicating with each-other, use higher forms of communication. Slack and Email ain't it. Real life is. The lower the form of communication the more miscommunication you will face. As I'm typing this you have no idea if I'm laughing, smiling, happy, or sad. You can't read my body language or my face, and because of that it's not guaranteed that you'll understand what I'm conveying. Need a drink order for a meeting? A Slack message is probably fine for that. One week out from a pitch and the thing you are working on just went south? Minimum a multi-way call with the heads of the pitch. Ideally grab them in real life. We have multiple offices that are there 100% for this kind of thing, so use them. The higher the complexity of what needs to be said, the higher the form of the communication you should use. Call first then text if they don't answer. If a colleague, client or supplier calls you, answer it. If they email you, acknowledge it, even if you don't have the answer yet. If they Slack, text, or Whatsapp you, read it and respond, even if you don't have the answer yet. Show them you're on it. Give them a 'yes chef' (you don't actually have to say that!), and do it straight away. Don't leave anyone hanging. Since we are on the topic of communication, written communication also does not constitute communication unless they confirm they read it! Always respect communication lines. There is always someone responsible for everything, and if multiple people are responsible for the same thing, then that's a problem and needs to be fixed immediately. When communicating across departments you go up and then over, don't go directly across. It will mean that no-one knows that's going on!</p>
       </>
     ),
-    cta: 'Be professional'
+    cta: 'Prepare!'
+  },
+  {
+    title: 'Preparation is everything.',
+    content: (
+      <>
+        <p>If you turn up to a meeting without an opinion, an idea, a solution, or generally have nothing to say, don't bother. Because if you don't, other people will feel like it's ok to be a passenger too. Psychology is contagious, so show everyone else you've prepared. Be the example you want to set. Put in a long shift weeks before the meeting so you don't have to in the days before the meeting. Use every tool at your disposal to prepare brilliantly. AI and outside experts are hacks for this, so don't reinvent the wheel when someone else has the right answers or has been in the situation you're in before. Hack faster solutions and prepare better. The smartest people leverage others' expertise, so be one of them. Demand a good brief, re-read it, decide what your angle is, script specifically what you're going to say, predict the challenges you're going to face, and practice practice practice. Great prep shows you really are the best at what you do, but more than that, it shows you're bang up for it. It's where your passion comes through. So build in buffers, give yourself room to breathe, and prepare better than anyone else in that room.  It's harder to be nervous before a meeting when you know you've prepared brilliantly.</p>
+      </>
+    ),
+    cta: 'Prepare!'
   }
 ];
 
@@ -203,7 +213,9 @@ const preloadImages = () => {
     personHero,
     passionHero,
     profeshHero,
-    arrowsHero
+    arrowsHero,
+    commsHero,
+    prepHero
   ];
   
   images.forEach(src => {
@@ -400,6 +412,23 @@ function App() {
               style={{
                 minHeight: '420px',
                 backgroundImage: `url(${commsHero})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                borderRadius: '20px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'relative',
+                marginBottom: '10px'
+              }}
+            />
+          )}
+          {page === 12 && (
+            <div
+              className="hero"
+              style={{
+                minHeight: '420px',
+                backgroundImage: `url(${prepHero})`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 borderRadius: '20px',
