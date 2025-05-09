@@ -102,7 +102,7 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   height: 60px;
   color: #fff;
   z-index: 10;
-  transition: color 0.4s;
+  transition: all 0.4s ease;
 }
 
 .page-0 .bird-icon {
@@ -126,6 +126,7 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   margin: 0 auto 1.5rem auto;
   width: 110px;
   height: auto;
+  z-index: 9;
   max-width: 90vw;
 }
 
