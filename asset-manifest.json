@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/openpartnersplaybook/static/css/main.5b5c521d.css",
-    "main.js": "/openpartnersplaybook/static/js/main.7469d2b6.js",
+    "main.css": "/openpartnersplaybook/static/css/main.b3df741e.css",
+    "main.js": "/openpartnersplaybook/static/js/main.d1c89575.js",
     "static/js/453.a1e05fd9.chunk.js": "/openpartnersplaybook/static/js/453.a1e05fd9.chunk.js",
     "static/media/joe.png": "/openpartnersplaybook/static/media/joe.ef4e6d9dd96fd0d97b79.png",
     "index.html": "/openpartnersplaybook/index.html",
-    "main.5b5c521d.css.map": "/openpartnersplaybook/static/css/main.5b5c521d.css.map",
-    "main.7469d2b6.js.map": "/openpartnersplaybook/static/js/main.7469d2b6.js.map",
+    "main.b3df741e.css.map": "/openpartnersplaybook/static/css/main.b3df741e.css.map",
+    "main.d1c89575.js.map": "/openpartnersplaybook/static/js/main.d1c89575.js.map",
     "453.a1e05fd9.chunk.js.map": "/openpartnersplaybook/static/js/453.a1e05fd9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b5c521d.css",
-    "static/js/main.7469d2b6.js"
+    "static/css/main.b3df741e.css",
+    "static/js/main.d1c89575.js"
   ]
 }
