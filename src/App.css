@@ -53,7 +53,7 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   line-height: 120%;
 }
 
-.page-11 h2 {
+.page-11 h2, .page-13 h2, .page-0 h2 {
   font-size: 2.3rem;
 }
 
@@ -142,11 +142,11 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   justify-content: flex-start;
 }
 
-.mobile-app.page-0 {
+.mobile-app.page-0, .mobile-app.page-17 {
   background: white;
 }
 
-.mobile-app.page-0 .hero {
+.mobile-app.page-0 .hero, .mobile-app.page-17 .hero {
   background: yellow url('./assets/joe.png') no-repeat left bottom;
   background-size: auto 100%;
   background-position: left 40px bottom;
@@ -154,6 +154,14 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   height: 250px;
   border-radius: 30px;
   padding-left: 50px;
+}
+
+.mobile-app.page-17 .bird-icon, .mobile-app.page-17 h2, .mobile-app.page-17 p {
+  color: black;
+}
+
+.mobile-app.page-17 h2 {
+  margin-bottom: 10px;
 }
 
 .mobile-app .hero svg {
@@ -804,7 +812,7 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
   background: #0b77b2;
 }
 
-.mobile-app.page-6 .hero, .mobile-app.page-7 .hero, .mobile-app.page-8 .hero, .mobile-app.page-10 .hero, .mobile-app.page-11 .hero {
+.mobile-app.page-6 .hero, .mobile-app.page-7 .hero, .mobile-app.page-8 .hero, .mobile-app.page-10 .hero, .mobile-app.page-11 .hero, .mobile-app.page-12 .hero, .mobile-app.page-14 .hero, .mobile-app.page-15 .hero {
   margin-left: -40px;
   margin-right: -40px;
   width: calc(100% + 80px);
@@ -847,4 +855,44 @@ body::-webkit-scrollbar, .mobile-app::-webkit-scrollbar {
 
 .page-11 h2 {
   margin-top: -20px;
+}
+
+.page-12 {
+  background: #0d0b0a;
+}
+
+.page-12 h2 {
+  margin-top: 20px;
+}
+
+.page-13 {
+  background: #fedeab;
+}
+
+.page-13 .bird-icon, .page-13 h2, .page-13 p {
+  color: black;
+}
+
+.mobile-app.page-14 {
+  background: #000000;
+}
+
+.mobile-app.page-15 {
+  background: #35afb4;
+}
+
+.page-15 .bird-icon, .page-15 h2, .page-15 p {
+  color: black;
+}
+
+.page-15 h2, .page-16 h2 {
+  margin-bottom: 10px;
+}
+
+.mobile-app.page-16 {
+  background: #2c609b;
+}
+
+.mobile-app.page-2 .bird-icon {
+  color: white;
 }

@@ -12,6 +12,9 @@ import arrowsHero from './assets/arrows.jpg';
 import commsHero from './assets/comms.jpg';
 import prepHero from './assets/prep.jpg';
 import prezzoHero from './assets/prezzo.jpg';
+import binary from './assets/binary.jpg';
+import easy from './assets/easy.jpg';
+import winning from './assets/winning.jpg';
 
 const RocketBgIcon = () => (
   <svg width="135" height="130" viewBox="0 0 135 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="rocket-bg-icon">
@@ -210,7 +213,50 @@ const pages = [
         <p>Every meeting you run is a show, and every show needs a script. That's what a presentation is. Every presentation is a script, and every one without exception has to be exciting. That means every slide has to count. It might sound like an exaggeration, but our business has been built on knockout slide decks. Beautiful, elegant slide decks that tell compelling business stories built on crisp insights with killer recommendations. I have a 'no dull slide rule'. When I get a killer deck that looks great, tells a great business story, including rock solid insights, great ideas, and clear, actionable recommendations, I get excited. I guarantee our clients do too. People who have been here for a while know that I have extremely high standards when it comes to slide decks, and it's because I know that it's those that have been the foundation of making our business successful. Each great presentation is like a foundation stone. "That's the best presentation I've ever seen" has been a common remark from clients since we started, and that's what you need to aim for every time. Why? Because great presentations live on forever. They make our clients and partners feel something, and can be used as rally points, and adapted for other clients, so that we can be better than we were yesterday. The best presentations are the foundation for the best meetings. Of the best meeting performances. Build a great deck, and - as long as you created it yourself and know the content inside-out - you're almost guaranteed to deliver a great meeting performance. Alongside great decks, the other thing that will deliver a guaranteed amazing meeting is if you ask amazing questions. Great questions not only show that you're a great listener, they also show that you get it, so make sure you ask at least one killer question in every meeting. Great performances lead to impressed clients, and impressed clients lead to trust, confidence, investment, growth, and love.</p>
       </>
     ),
-    cta: 'Every slide counts'
+    cta: 'Reviews and proposals'
+  },
+  {
+    title: 'Our presentations are binary.',
+    content: (
+      <>
+        <p>We only have two types of presentation; Reviews, and Proposals. Reviews are about assessing performance versus meaningful benchmarks, identifying strengths, weaknesses, opportunities and threats, and deriving actionable insights for the future. Proposals are the documentation of our ideas to hit the client's objectives, and include costs, measurable benefits, timings, and stakeholders. We don't produce anything other than Reviews and Proposals at Open Partners. Reviews feed Proposals, and Proposals feed Reviews, and the story you tell, and the way you tell it, is 100% based on your audience. The good news is that all of our clients are pretty similar - Performance Marketers looking to us to accelerate performance - so give it to them! Remember that the reason our clients work with us is simple - to accelerate their growth and make them look good. We only grow if they do, so let that be the foundation of every single presentation you do.</p>
+      </>
+    ),
+    cta: 'Being Open isn\'t easy'
+  },
+  {
+    title: 'Being Open isn\'t easy.',
+    content: (
+      <>
+        <p>At Open Partners our collective ambition is bigger than anyone else's, and that's why our path to becoming iconic has already begun. Our positioning is perfect, and our headroom is almost limitless, but Open Partners isn't a comfort zone. If you're in yours, it's a sign something needs to change. This is the front line, and we are a group of people who identify with going all in and being more comfortable in discomfort than anyone else. Growth comes from sorting out the stuff that's wrong, not patting ourselves on the back for the stuff we've done right, so we make a point of saying the negatives fast and loud. We don't just tell people on our team why something is good. It's infinitely more valuable to tell each-other why it's not good. I'd rather you guys be honest with each other than nice to each other. It's not personal. Our resilience comes from taking knocks, making mistakes, and coming back from them. It doesn't come from talking to each-other about how hard things are. Every day we move fast, break things, take punishment, and pivot, and every day it's making us stronger, not weaker. Change is our business, and adapting is what we do. Change is hard, but we love it, and mistakes are the fuel of improvement. Mistakes aren't just acceptable - they're necessary! Mistakes are proof you're pushing boundaries and taking risks, and that's what we're all about. But learning from them is non-negotiable. We will never punish mistakes, but repeat mistakes show you're not learning, so please don't do that.</p>
+      </>
+    ),
+    cta: 'Winning'
+  },
+  {
+    title: "How to know you're winning.",
+    content: (
+      <>
+        <p>So the things that matter to us above everything else are client, partner, and colleague delight. Nail those and everything else that's good follows - retained clients, walk-in referrals, special access and generally huge and positive tail-winds. Relationships are your lifeline. Your clients, partners and colleagues are your critical components, and protecting those relationships is non-negotiable. Build trust, stay upstream, and anticipate their needs before they know them themselves. Your ability to connect and collaborate defines your value. So be a pleasure to work with. Make things easy - so easy that working with you feels like a relief. Don't burden clients, suppliers or colleagues with unnecessary tasks. Make yourself more responsible. For instance, if you need a briefing form, don't make them fill it out. You do the heavy lifting. Target getting messages of thanks as your main KPI. Receiving Christmas Cards. Getting wedding invites. A 'wow' note to Elliot, Michael or I. Long-term success is built on rock solid personal connections, and those are built on consistently strong delivery. Their satisfaction is your job, and their loyalty beyond their current job will be your reward. The people you deal with are your contacts, not the businesses they work for, and if you build and nurture the relationships with them right they will last for your whole career. So be dynamic, be funny, and tackle the hard topics head-on. Never sell to people, but give them solutions to their problems. Pre-empt problems they're going to face, and solve them before they happen. Make everyone around you look fantastic. Make them happy. If you do, you'll be impossible to replace, and so will we.</p>
+      </>
+    ),
+    cta: 'Sign off'
+  },
+  {
+    title: 'Final note',
+    content: (
+      <>
+        <p>So, thanks for reading. There's a lot there, and some of it might seem quite intense. It's supposed to. We are intense here. We are a high-growth business and we're always looking forward. We need more leaders in the company. More A-Players. People who are passionate, coachable, intelligent, and driven, that can step up and take some of our leadership spots over the coming years.</p>
+        <p>Every single department has an opportunity for you to grow in, and you're in luck because we don't save things up for yearly reviews, we give on the job feedback so you can improve as you go. Progress doesn't follow a calendar. If you want to become a Senior Partner, tell us, and ask why you're not good enough, and ask how you can become better.</p>
+        <p>We deeply believe in rewarding the people that help this business get where it needs to be.</p>
+        <p>This isn't a bureaucratic corporate company. You don't have to do something for 5 years to get a promotion. The more responsibility you take, the more risk you help us navigate, and the more indispensable you are, the more you will lead OP. That obviously means more money, but it also means more purpose, and more stories to tell.</p>
+        <p>If you want more of any of that we will gladly help train you to receive it. There is infinite room for you to grow here. This isn't a stepping stone, this is your final destination.</p>
+        <p>We will win and we are going to build something truly amazing. I see a world where this company sets the marketing agenda, and it's the legacy we will leave that really matters. Your opportunity is to not just be a part of it, but to lead it.</p>
+        <p>I want nothing more than for you to go all in, dedicate every day to becoming indispensable, and to make your clients, partners and colleagues love you.</p>
+        <p>It's time for 'next' - make that be you.</p>
+      </>
+    ),
+    cta: 'Sign off'
   }
 ];
 
@@ -466,7 +512,72 @@ function App() {
                 position: 'relative',
                 marginBottom: '10px'
               }}
-            />
+            >
+              <svg width="135" height="130" viewBox="0 0 135 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="rocket-bg-icon">
+                <path d="M135 130H134.399C131.62 116.307 119.514 106 105 106H60C43.4315 106 30 92.5685 30 76V30C30 13.4315 16.5685 0 0 0H135V130Z" fill="#fedeab" />
+              </svg>
+            </div>
+          )}
+          {page === 14 && (
+            <div
+              className="hero"
+              style={{
+                minHeight: '420px',
+                backgroundImage: `url(${binary})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                borderRadius: '20px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'relative',
+                marginBottom: '10px'
+              }}
+            >
+            </div>
+          )}
+          {page === 15 && (
+            <div
+              className="hero"
+              style={{
+                minHeight: '420px',
+                backgroundImage: `url(${easy})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'relative',
+                marginBottom: '10px'
+              }}
+            >
+            </div>
+          )}
+          {page === 16 && (
+            <div
+              className="hero"
+              style={{
+                minHeight: '420px',
+                backgroundImage: `url(${winning})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'right -50px center',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                position: 'relative',
+                borderRadius: '25px',
+                marginBottom: '0px'
+              }}
+              >
+                <svg width="135" height="130" viewBox="0 0 135 130" fill="none" xmlns="http://www.w3.org/2000/svg" className="rocket-bg-icon">
+                  <path d="M135 130H134.399C131.62 116.307 119.514 106 105 106H60C43.4315 106 30 92.5685 30 76V30C30 13.4315 16.5685 0 0 0H135V130Z" fill="#2c609b" />
+                </svg>
+            </div>
+          )}
+          {page === 17 && (
+            <div className="hero">
+              <RocketBgIcon />
+            </div>
           )}
           <h2>{page === 0
             ? (<span>Hi, I'm Joe 👋<br />Co-founder and Executive Chair at <br />Open Partners.</span>)
