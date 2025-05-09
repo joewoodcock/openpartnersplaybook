@@ -156,16 +156,36 @@ const pages = [
     title: 'We are a professional services business, so be professional.',
     content: (
       <>
-        <p>This stuff is bread and butter for us and it doesn’t cost a thing. We’re always on time. We’re respectful. We’re kind, and we’re fair. We avoid gossip, offensive language, and inappropriate jokes. We communicate clearly, politely, effectively and use appropriate language and tone. We dress appropriately for the environment or occasion, and adhere to dress codes or norms with clients and partners. We’re dependable by meeting deadlines, keeping commitments, and knowing that if you show up on time you’re a few minutes late. We take pride in demonstrating expertise and skill in our field. We show a willingness to learn and adapt when needed. We maintain appropriate boundaries with colleagues and clients, avoid unprofessional relationships, and handle challenges calmly and constructively. We avoid drama or placing blame. We own our mistakes, correct them, and learn from them without deflecting responsibility. We follow ethical practices, including honesty, transparency, and adherence to rules or policies. We keep our personal emotions in check, even under pressure, and remain composed and courteous at all times. Humility isn’t optional - it’s foundational. Respect and courtesy aren’t just for the boardroom; they extend to everyone you meet. Greet receptionists with the same warmth as you would a CEO. Learn everyone’s name. Clean up after yourself - better yet, clean up after others. True character shows in the smallest actions, and it sets the tone for how we operate.  </p>
+        <p>This stuff is bread and butter for us and it doesn't cost a thing. We're always on time. We're respectful. We're kind, and we're fair. We avoid gossip, offensive language, and inappropriate jokes. We communicate clearly, politely, effectively and use appropriate language and tone. We dress appropriately for the environment or occasion, and adhere to dress codes or norms with clients and partners. We're dependable by meeting deadlines, keeping commitments, and knowing that if you show up on time you're a few minutes late. We take pride in demonstrating expertise and skill in our field. We show a willingness to learn and adapt when needed. We maintain appropriate boundaries with colleagues and clients, avoid unprofessional relationships, and handle challenges calmly and constructively. We avoid drama or placing blame. We own our mistakes, correct them, and learn from them without deflecting responsibility. We follow ethical practices, including honesty, transparency, and adherence to rules or policies. We keep our personal emotions in check, even under pressure, and remain composed and courteous at all times. Humility isn't optional - it's foundational. Respect and courtesy aren't just for the boardroom; they extend to everyone you meet. Greet receptionists with the same warmth as you would a CEO. Learn everyone's name. Clean up after yourself - better yet, clean up after others. True character shows in the smallest actions, and it sets the tone for how we operate.  </p>
       </>
     ),
     cta: 'Be professional'
   }
 ];
 
+// Preload images
+const preloadImages = () => {
+  const images = [
+    handshakeGif,
+    goalHero,
+    monsterGif,
+    personHero
+  ];
+  
+  images.forEach(src => {
+    const img = new Image();
+    img.src = src;
+  });
+};
+
 function App() {
   const [page, setPage] = useState(0);
   const [fade, setFade] = useState(false);
+
+  // Preload images on initial load
+  useEffect(() => {
+    preloadImages();
+  }, []);
 
   // Initialize page from URL hash
   useEffect(() => {
@@ -238,6 +258,8 @@ function App() {
               <img
                 src={handshakeGif}
                 alt="Handshake"
+                style={{ opacity: 0, transition: 'opacity 0.3s ease-in-out' }}
+                onLoad={(e) => e.target.style.opacity = 1}
               />
             </div>
           )}
@@ -249,7 +271,8 @@ function App() {
               <img
                 src={goalHero}
                 alt="People on a mountain summit"
-                style={{ width: '100%', borderRadius: '20px', marginBottom: '-125px'}}
+                style={{ width: '100%', borderRadius: '20px', marginBottom: '-125px', opacity: 0, transition: 'opacity 0.3s ease-in-out' }}
+                onLoad={(e) => e.target.style.opacity = 1}
               />
             </div>
           )}
@@ -258,6 +281,8 @@ function App() {
               <img
                 src={monsterGif}
                 alt="Mindset Monster"
+                style={{ opacity: 0, transition: 'opacity 0.3s ease-in-out' }}
+                onLoad={(e) => e.target.style.opacity = 1}
               />
             </div>
           )}
@@ -266,7 +291,8 @@ function App() {
               <img
                 src={personHero}
                 alt="Full service person"
-                style={{ height: '500px' }}
+                style={{ height: '500px', opacity: 0, transition: 'opacity 0.3s ease-in-out' }}
+                onLoad={(e) => e.target.style.opacity = 1}
               />
             </div>
           )}
