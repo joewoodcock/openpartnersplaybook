@@ -168,7 +168,7 @@ const pages = [
         <p>This stuff is bread and butter for us and it doesn't cost a thing. We're always on time. We're respectful. We're kind, and we're fair. We avoid gossip, offensive language, and inappropriate jokes. We communicate clearly, politely, effectively and use appropriate language and tone. We dress appropriately for the environment or occasion, and adhere to dress codes or norms with clients and partners. We're dependable by meeting deadlines, keeping commitments, and knowing that if you show up on time you're a few minutes late. We take pride in demonstrating expertise and skill in our field. We show a willingness to learn and adapt when needed. We maintain appropriate boundaries with colleagues and clients, avoid unprofessional relationships, and handle challenges calmly and constructively. We avoid drama or placing blame. We own our mistakes, correct them, and learn from them without deflecting responsibility. We follow ethical practices, including honesty, transparency, and adherence to rules or policies. We keep our personal emotions in check, even under pressure, and remain composed and courteous at all times. Humility isn't optional - it's foundational. Respect and courtesy aren't just for the boardroom; they extend to everyone you meet. Greet receptionists with the same warmth as you would a CEO. Learn everyone's name. Clean up after yourself - better yet, clean up after others. True character shows in the smallest actions, and it sets the tone for how we operate.  </p>
       </>
     ),
-    cta: 'Be professional'
+    cta: 'Have passion'
   },
   {
     title: 'A passion for who we are, what we do, and who we work with.',
